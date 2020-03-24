@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme-orange">
+    
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      
+      	<section class="panel panel-left panel-cover">
+			<h3 class="block-title">Menú Navegación</h3>
+			<div class="block">
+				<article class="list">
+					<ul>
+						<li>
+							<a href="/ukelele/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-guitar"></i>
+								</div>
+								<div class="item-inner">
+								  Ukelele
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/piano/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="far fa-keyboard"></i>
+								</div>
+								<div class="item-inner">
+									Piano
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/Guitarra/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-guitar"></i>
+								</div>
+								<div class="item-inner">
+									Guitarra
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/saxofon/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-music"></i>
+								</div>
+								<div class="item-inner">
+									Saxofon
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/bajo/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<i class="fas fa-guitar"></i>
+								</div>
+								<div class="item-inner">
+									Bajo
+								</div>
+							</a>
+						</li>
+					</ul>
+				</article>
+				
+			</div>
+		</section>
+      
+
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                	<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+                </div>
+                <div class="title">Menu</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+              <!--<h2 class="block-title">Tìtulo de Contenido</h2>
+              <div class="block block-strong">
+                  <p>Texto de contenido</p>
+              </div>-->
+              <article class="menu bg-ukelele">
+                <a href="/coffee/">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Ukelele</h2>
+                          <p>Nuevo Ukelele azul con dibujos en el.</p>
+                      </div> 
+                </a>
+              </article>
+              <article class="menu bg-piano">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Piano</h2>
+                          <p>Perfectly baked & served warm</p>
+                      </div>        
+              </article>
+              <article class="menu bg-guitarra">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Guitarra</h2>
+                          <p>Perfectly baked & served warm</p>
+                      </div>        
+              </article>
+              <article class="menu bg-saxofon">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Saxofon</h2>
+                          <p>Fresh, healthy and tasty</p>
+                      </div>        
+              </article>
+              <article class="menu bg-bajo">
+                  <a href="/drinks/">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Bajo</h2>
+                          <p>Special drinks for every taste</p>
+                      </div>
+                 </a>
+              </article>
+              
+          </div><!-- /page-content -->
+            
+        </section>
+          
+          
+      </div>
+    </div>
+    
+    
+    
+    <article class="popup popup-confirm">
+		
+		<div class="view">
+			<div class="page">
+			  <div class="page-content">
+					
+					<div class="block">
+					
+						<div class="icon-done">
+							<i class="material-icons">done</i>
+						</div>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, error!</p>
+						
+						<div class="row">
+							<a href="/home/" class="link button button-fill btn-verde popup-close">Thanks for your Order</a>
+							<a href="/coffee/" class="link button btn-gris popup-close">Continue Shopping</a>
+						</div>
+						
+				  	</div>
+					
+			  </div>
+			</div>
+		</div>
+	</article>
+    
+    
+    <script src="js/framework7.min.js"></script>
+    <script src="js/my-app.js"></script>
+    
+</body>
+</html>
